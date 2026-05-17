@@ -23,7 +23,7 @@ b = 2
 a = 5
 
 
-y = a**(b*x)
+y = a*np.exp(negative(b)*x)
 
 plt.rcParams["font.family"] = "Times New Roman"
 plt.rc("font", size=18) 
